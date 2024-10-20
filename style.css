@@ -1,0 +1,49 @@
+* {
+    font: Roboto;
+}
+
+.body {
+    display: flex;
+}
+/* first stack */
+.first-stack {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937 ;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.first-stack div{
+    flex: 1;
+    justify-content: center;
+    padding: 50px;
+}
+#genshin-background {
+    flex: 1;
+    max-width: 100%;
+}
+/* second stack */
+
+
+.center-paragraph {
+    text-align: center;
+}
+.picture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.small-picture {
+    max-width: 200px;
+}
+
+.small-picture p {
+    text-align: center;
+}
+
+/* third stack */
+
+
+
